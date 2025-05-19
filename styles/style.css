@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 160px;
+}
+
+.logo {
+    background-image: url("../assets/logo/White-Amazon-Logo-PNG-HD-Quality.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+/* box 2 */
+
+.address-first {}
