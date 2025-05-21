@@ -188,3 +188,37 @@ span {
     color: #007185;
     text-decoration: none;
 }
+
+
+/* shop section  */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.box-content {
+    margin: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
