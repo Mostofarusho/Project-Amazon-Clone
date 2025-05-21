@@ -5,23 +5,26 @@
 }
 
 .navbar {
-    height: 80px;
+    height: 60px;
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
-    height: 80px;
-    width: 160px;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     background-image: url("../assets/logo/White-Amazon-Logo-PNG-HD-Quality.png");
     background-size: cover;
-    height: 60px;
+    height: 40px;
     width: 100%;
-    margin-top: 15px;
 }
 
 .border {
@@ -35,4 +38,97 @@
 
 /* box 2 */
 
-.address-first {}
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.address-first {
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+/* box 3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fedb68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    color: #0f1111;
+}
+
+
+/* nav language  */
+
+.search-language {
+    font-size: 1.2rem;
+    background-color: #0f1111;
+    /* background-color: blue; */
+    color: white;
+    border: none;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+
+/* box 4 */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+
+/* box 6  */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: .85rem;
+    font-weight: 700;
+}
