@@ -212,7 +212,7 @@ span {
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 .box-content {
